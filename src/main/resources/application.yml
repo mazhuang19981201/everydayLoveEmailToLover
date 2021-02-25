@@ -1,0 +1,14 @@
+spring:
+  mail:
+    username: 2442486815@qq.com
+    password: kfdsbqselncediag
+    host: smtp.qq.com
+    properties:
+      mail:
+        smtp:
+          auth: true #开启smtp协议验证
+    port: 587
+
+    #目标邮箱
+she:
+  mail: 2442486815@qq.com
