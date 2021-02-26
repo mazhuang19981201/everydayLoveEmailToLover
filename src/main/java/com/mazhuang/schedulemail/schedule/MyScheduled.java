@@ -18,7 +18,8 @@ public class MyScheduled {
 
         log.info("====调用定时方法");
         String message = sendMessage.getOneS();
-        sendMessage.sendMessage("来自另一个自己",message);
+        log.info("发送的消息:{}",message);
+        sendMessage.sendHtmlMessage("来自另一个自己",message);
     }
 
 }
